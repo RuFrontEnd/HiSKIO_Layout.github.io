@@ -1,0 +1,21 @@
+#hiskio-announcement {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hiskio-banner {
+  width: 100%;
+}
+
+#hiskio-main-container {
+  background-color: #f0e9d7;
+}
+
+#hiskio-main-wrap {
+}
+
+#hiskio-footer{
+    width: 100%;
+}
