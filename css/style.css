@@ -6,16 +6,35 @@
 }
 
 #hiskio-banner {
-  width: 100%;
-}
-
-#hiskio-main-container {
   background-color: #f0e9d7;
 }
 
-#hiskio-main-wrap {
+#hiskio-banner-img {
+  width: 100%;
 }
 
-#hiskio-footer{
-    width: 100%;
+.hiskio-container {
+  background-color: #f0e9d7;
+}
+
+.hiskio-warp {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#hiskio-footer-img {
+  width: 100%;
+}
+
+#hiskio-lion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hiskio-lionTalking {
+  min-width: 665px;
+  background: url("/assets/talking2.png") no-repeat;
+  background-size: contain;
+  border: 1px solid black;
 }

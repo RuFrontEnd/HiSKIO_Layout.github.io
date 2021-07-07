@@ -12,27 +12,38 @@
 </head>
 
 <body>
-    <header>
-        <div id='hiskio-announcement'>
-            <p>新年快樂！還有</p>
-            <p>00</p>
-            <p>天</p>
-            <p>00</p>
-            <p>時</p>
-            <p>00</p>
-            <p>分</p>
-            <p>00</p>
-            <p>秒</p>
-            <p>可以領紅包！</p>
-        </div>
-        <!-- <div id='banner'></div> -->
-        <img id='hiskio-banner' src='/assets/banner1.png' />
+    <header id='hiskio-header-container'>
+        <section id='hiskio-header-wrap'>
+            <div id='hiskio-announcement'>
+                <p>新年快樂！還有</p>
+                <p>00</p>
+                <p>天</p>
+                <p>00</p>
+                <p>時</p>
+                <p>00</p>
+                <p>分</p>
+                <p>00</p>
+                <p>秒</p>
+                <p>可以領紅包！</p>
+            </div>
+            <div id='hiskio-banner'>
+                <img id='hiskio-banner-img' src='/assets/banner1.png' />
+            </div>
+        </section>
     </header>
-    <main id='hiskio-main-container'>
-        <div id='hiskio-main-wrap'></div>
-    </main>
+    <section id='hiskio-coupon-container' class="hiskio-container">
+        <div id='hiskio-coupon-wrap' class="hiskio-warp">
+            <div id="hiskio-lion">
+                <img src="/assets/lion.png" />
+                <div id="hiskio-lionTalking">
+                    <!-- <img src="/assets/talking2.png"></img> -->
+                    <p>三種包領好領滿，錯過領券時間就沒有囉</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
-        <img src="/assets/footer.png" id='hiskio-footer'/>
+        <img src="/assets/footer.png" id='hiskio-footer-img' />
     </footer>
     <script src="../js/main.js"></script>
 </body>
