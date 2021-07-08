@@ -38,3 +38,44 @@
   background-size: contain;
   border: 1px solid black;
 }
+
+#hiskio-coins {
+  display: flex;
+  justify-content: center;
+}
+
+#hiskio-flags {
+  display: flex;
+  justify-content: center;
+}
+
+.hiskio-flag {
+  width: 270px;
+  height: 310px;
+}
+
+#hiskio-flag-past {
+  width: 270px;
+  height: 310px;
+  background: url("../assets/past.png") no-repeat;
+  background-size: cover;
+}
+
+#hiskio-flag-now {
+  width: 270px;
+  height: 310px;
+  background: url("../assets/now.png") no-repeat;
+  background-size: cover;
+}
+
+#hiskio-flag-future {
+  width: 270px;
+  height: 310px;
+  background: url("../assets/future.png") no-repeat;
+  background-size: cover;
+}
+
+#hiskio-course{
+    padding: 150px 0px;
+    background-color: #E2D7C0;
+}
