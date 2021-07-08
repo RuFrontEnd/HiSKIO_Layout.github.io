@@ -75,7 +75,48 @@
   background-size: cover;
 }
 
-#hiskio-course{
-    padding: 150px 0px;
-    background-color: #E2D7C0;
+#hiskio-course {
+  padding: 150px 0px;
+  background-color: #e2d7c0;
+}
+
+#hiskio-introBar-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+#hiskio-introBar {
+  border-top: 40px solid #590a10;
+  color: #590a10;
+  padding: 25px 225px;
+  font-size: 27px;
+  background-color: #e2d7c0;
+}
+
+#hiskio-introBar-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#hiskio-introBar-btn > div {
+  background-color: #f1c74f;
+  border: 2px solid #be9360;
+  padding: 30px 15px;
+  border-radius: 10000px;
+  margin: 20px 0px;
+}
+
+#hiskio-coupon {
+  padding-top: 120px;
+  padding-bottom: 280px;
+}
+
+#hiskio-course-container {
+  position: relative;
+}
+
+#hiskio-introBar-container {
+  position: absolute;
+  left: 50%;
+  top: -100px;
 }
